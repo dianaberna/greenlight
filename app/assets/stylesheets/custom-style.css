@@ -1,0 +1,16 @@
+.background{
+	background: #000 !important;
+	color: #fff;
+}
+
+.avatar, .header .header-nav {
+	padding-top: 4px;
+}
+
+#main-text{
+	font-family: 'BauerBodoniStd' !important;
+}
+
+.form-control{
+	font-family: 'Source Sans Pro';
+}
