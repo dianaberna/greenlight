@@ -13,7 +13,7 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<div class="header py-4">
+<div class="header pt-4 pb-0">
   <div class="container">
     <div class="d-flex">
       <%= link_to (current_user ? home_page : root_path), class: "header-brand" do %>
@@ -25,21 +25,21 @@
         <% end %>
       <% end %>
 
-      <div class="d-flex ml-auto">
+      <div class="row ml-auto">
         <% if current_user %>
 
-          <%= link_to home_page, class: "px-5 mx-auto mt-4 header-nav #{active_home}" do %>
+          <%= link_to home_page, class: "px-3 mt-4 header-nav #{active_home}" do %>
             <i class="fas fa-home pr-1 "></i><span class="d-none d-sm-inline-block"><%= t("header.dropdown.home") %></span>
           <% end %>
 
           <% if current_user.role.get_permission("can_create_rooms") && !current_user.has_role?(:super_admin) && !hide_recording_tables %>
             <% all_rec_page = params[:controller] == "users" && params[:action] == "recordings" ? "active" : "" %>
-            <%= link_to get_user_recordings_path(current_user), class: "px-5 mx-auto mt-4 header-nav #{all_rec_page}" do %>
+            <%= link_to get_user_recordings_path(current_user), class: "px-2 mt-4 header-nav #{all_rec_page}" do %>
               <i class="fas fa-video pr-1"></i><span class="d-none d-sm-inline-block"><%= t("header.all_recordings") %></span>
             <% end %>
           <% end %>
 
-          <div class="dropdown px-5 mx-auto mt-4">
+          <div class="dropdown pr-2 mt-4">
             <a href="#" class="nav-link pr-0" data-toggle="dropdown">
               <% if current_user.image.blank? || !valid_url?(current_user.image) %>
                 <span class="avatar"><%= current_user.name.first %></span>

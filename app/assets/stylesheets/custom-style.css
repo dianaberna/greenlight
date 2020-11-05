@@ -1,3 +1,7 @@
+html, body{
+	background-color: #000 !important;
+}
+
 .background{
 	background: #000 !important;
 	color: #fff;
@@ -6,6 +10,11 @@
 .header .header-nav {
 	padding-top: 8px;
 	color: #000 !important;
+	border: 0!important;
+}
+
+.header .header-nav.active{
+	border-bottom: 4px solid #FEEC00 !important;
 }
 
 .avatar{
@@ -55,10 +64,11 @@
 	color: #000 !important;
 	font-family: 'BauerBodoniStd' !important;
 	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 
 .header{
-	height: 95px !important;
+	height: fit-content!important;
 }
 
 .header .ml-aut{
@@ -107,20 +117,13 @@
 table#recordings-table {
     color: #fff!important;
 }
+table#recordings-table th{
+	font-family: 'Gotham-Medium'!important;
+    color: #fff!important;
+}
 
 .list-group{
 	font-family: 'Source Sans Pro' !important;
-}
-
-.list-group #roleSelect .list-group-item, 
-#newRole{
-	color: #000 !important;
-	background-color: #fff !important;
-}
-.list-group #roleSelect .list-group-item:hover,
-#newRole:hover{
-	color: #D20102 !important;
-	background-color: #fff !important;
 }
 
 .footer{
@@ -164,18 +167,19 @@ a.page-link {
 
 .stamp .fas{
 	padding-top: 11px !important;
+	color: #000!important;
 }
 
 .card-header:first-child{
 	border-radius: 0px !important;
 }
 
-.sort-disabled, #newRoleButton{
+.sort-disabled{
 	background-color: #fff !important;
 	color: #000 !important;
 }
 
-.sort-disabled:hover, #newRoleButton:hover{
+.sort-disabled:hover{
 	background-color: #fff !important;
 	color: #D20102 !important;
 }
@@ -188,6 +192,58 @@ a.page-link {
 	margin-top: 14px !important;
 }
 
+
+@media only screen and (max-width: 600px){
+	.sign-in-button {
+    	margin-top: 0px !important;
+	}
+	#main-text {
+	    font-size: 2.2rem;
+	}
+}
+
 .table-hover tbody tr:hover{
 	color: #FEEC00!important;
 }
+
+.start-button {
+    padding-top: 21px!important;
+}
+
+button i.fas.fa-search{
+	color: #fff!important;
+}
+
+
+button.btn.btn-outline-primary:hover{
+	color: #FEEC00!important;
+	background-color: #000!important;
+}
+
+.nav-tabs .nav-link.active{
+	color: #D20102 !important;
+}
+
+.nav-tabs .nav-link:not(.active){
+	color: #000!important;
+}
+
+.nav-tabs .nav-link.active{
+	border: none!important;
+}
+
+.cookies-banner-content .primary-lighten {
+ 	color: #000 !important;
+ 	background-color: #fff !important;
+ 	border: 0px!important;
+}
+
+.primary-lighten.cookies-banner{
+	color: #000!important;
+	padding-top: 12px;
+}
+
+button#room-join {
+    padding-top: 4px;
+}
+

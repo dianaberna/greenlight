@@ -294,7 +294,7 @@ it:
       help: "Ti serve aiuto?"
       home: Principale
       settings: Profilo
-      signout: Esci
+      signout: "Esci"
   home_room: Stanza principale
   info_update_success: Le informazioni sono state aggiornate.
   invalid_credentials: L'email e/o la password che hai fornito non hanno riscontro in archivio. Prova ancora o clicca su "Ho dimenticato la password" per resettare e reimpostare la tua password attuale
@@ -311,7 +311,7 @@ it:
       start: Inizio ricerca...
   landing:
     about: "Questa è un'interfaccia per il software di video-conferenza open source BigBlueButton. Puoi creare Stanze per ospitare i meeting, o partecipare ad altri meeting utilizzando pratici collegamenti brevi."
-    welcome: MonclerDigitalShowRoom
+    welcome: DigitalShowRoom
     video: Guarda il tutorial sull'utilizzo di GreenLight
     upgrade: Mostrami come aggiornare alla versione 2.0!
     version: "E' stata rilasciata una nuova versione di GreenLight, ma il tuo database non è compatibile."
