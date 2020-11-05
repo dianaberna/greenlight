@@ -5,6 +5,7 @@
 
 .avatar, .header .header-nav {
 	padding-top: 4px;
+	color: #000 !important;
 }
 
 #main-text{
@@ -12,5 +13,83 @@
 }
 
 .form-control{
-	font-family: 'Source Sans Pro';
+	font-family: 'Source Sans Pro' !important;
 }
+
+
+.header-brand {
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    font-weight: 600;
+    padding: 0;
+    transition: .3s opacity;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.header-brand p{
+	color: #000 !important;
+	font-family: 'BauerBodoniStd' !important;
+	text-transform: uppercase;
+}
+
+.header{
+	height: 95px !important;
+}
+
+.header .ml-aut{
+	margin-top: 15px !important;
+}
+
+.header-brand-img{
+	height: 4rem !important;
+	margin-top: -20px !important;
+}
+
+.btn {
+	margin-top: 1rem;
+	border: 0;
+	color: #000 !important;
+	font-family: 'Gotham' !important;
+	text-transform: uppercase;
+	/*font-family: 'Source Sans Pro' !important;*/
+}
+
+.wrapper{
+	background-color: #000;
+    border: 0;
+    box-shadow: none;
+}
+
+.card{
+	border: 0;
+}
+
+.btn i{
+	margin-top: -1rem !important;
+}
+
+.subtitle{
+	color: #fff !important;
+	font-family: 'Gotham-Medium';
+}
+
+.sessions .table-responsive{
+	background-color: #000 !important;
+}
+
+table#recordings-table {
+    color: #fff!important;
+}
+
+.list-group{
+	font-family: 'Source Sans Pro' !important;
+}
+
+.footer{
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+

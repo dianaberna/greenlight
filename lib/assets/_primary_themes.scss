@@ -8,8 +8,10 @@
 .btn-primary:visited,
 .btn-primary i {
   background-color: $primary-color !important;
-  border-color: $primary-color !important;
-  color: white !important;
+  // border-color: $primary-color !important;
+  color: #000 !important;
+  padding-top: 1rem;
+  vertical-align: middle;
 }
 
 .btn-primary:active,
@@ -18,21 +20,21 @@
 .btn-primary:hover,
 .btn-primary:hover i {
   background-color: $primary-color !important;
-  border-color: $primary-color-darken !important;
+  // border-color: $primary-color-darken !important;
   color: red !important;
   text-decoration: underline;
 }
 
 .btn-primary:focus {
   background-color: $primary-color-darken !important;
-  border-color: $primary-color-darken !important;
+  // border-color: $primary-color-darken !important;
   color: white !important;
-  box-shadow: 0 0 0 2px $primary-color-lighten !important;
+  box-shadow: none;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
   background-color: $primary-color !important;
-  border-color: $primary-color !important;
+  // border-color: $primary-color !important;
   color: white !important;
 }
 
@@ -50,14 +52,21 @@ a {
 
 .btn-outline-primary {
   // border-color: $primary-color !important;
-  color: $primary-color !important;
+  font-size: 14px;
+  color: #000 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 30px;
 
   &:hover {
-    background: $primary-color !important;
-    color: white !important;
+    background: #fff !important;
+    color: #D41213 !important; //red
+    text-decoration: underline !important;
   }
 
   &:focus {
+    box-shadow: none;
+    border: none;
     // box-shadow: 0 0 0 2px $primary-color-lighten !important;
   }
 }
@@ -73,11 +82,12 @@ a {
   }
 
   & .header-nav {
-    border-color: $primary-color !important;
+    border-color: #000 !important;
   }
 
   & .header-nav.active {
-    color: $primary-color !important;
+    color: #D41213 !important;
+    text-decoration: underline !important;
   }
 }
 
@@ -113,8 +123,8 @@ a {
 }
 
 input:focus, select:focus {
-  box-shadow: 0 0 5px $primary-color !important;
-  border-color: $primary-color !important;
+  box-shadow: none;
+  border: none;
 }
 
 .list-group-item.active {
@@ -168,7 +178,7 @@ input:focus, select:focus {
     }
 
     & a:focus {
-      box-shadow: 0 0 3px $primary-color !important;
+      box-shadow: none;
     }
   }
 }
@@ -197,7 +207,7 @@ input:focus, select:focus {
 }
 
 .custom-switch-input:focus ~ .custom-switch-indicator {
-  box-shadow: 0 0 0 2px $primary-color-lighten;
+  box-shadow: none;
   border-color: $primary-color-darken !important;
 }
 
@@ -213,7 +223,7 @@ input:focus, select:focus {
 
 .room-block {
   &.current {
-    box-shadow: 0 0 10px $primary-color-lighten;
+    box-shadow: none;
   }
 }
 

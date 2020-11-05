@@ -280,7 +280,7 @@ it:
   footer:
     legal: Termini
     privpolicy: Politica della Privacy
-    powered_by: "Questo progetto utilizza %{href}."
+    powered_by: "Powered by KEPLERINFORMATICA -COPYRIGHT © 2000-2020 MONCLER S.P.A. - ALL RIGHTS RESERVED"
   forgot_password:
     subtitle: Password dimenticata
     email: Email
@@ -310,7 +310,7 @@ it:
     search:
       start: Inizio ricerca...
   landing:
-    about: "%{href} è una semplice interfaccia per il software di video-conferenza open source BigBlueButton. Puoi creare Stanze per ospitare i meeting, o partecipare ad altri meeting utilizzando pratici collegamenti brevi."
+    about: "Descrizione piattaforma"
     welcome: MonclerDigitalShowRoom
     video: Guarda il tutorial sull'utilizzo di GreenLight
     upgrade: Mostrami come aggiornare alla versione 2.0!
