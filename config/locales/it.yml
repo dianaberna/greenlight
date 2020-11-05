@@ -210,7 +210,7 @@ it:
         username: Nome utente
       title: Gestisci utenti
   add_to_google_calendar: "Aggiungi a Google Calendar"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: MonclerDigitalShowRoom
   bigbluebutton_exception: "Oops, c'è stato un errore nell'avvio del meeting!"
   cancel: Annulla
   cookies:
@@ -280,7 +280,7 @@ it:
   footer:
     legal: Termini
     privpolicy: Politica della Privacy
-    powered_by: "Powered by KEPLERINFORMATICA -COPYRIGHT © 2000-2020 MONCLER S.P.A. - ALL RIGHTS RESERVED"
+    powered_by: "Powered by KEPLERINFORMATICA - COPYRIGHT © 2000-2020 MONCLER S.P.A. - ALL RIGHTS RESERVED"
   forgot_password:
     subtitle: Password dimenticata
     email: Email
@@ -310,7 +310,7 @@ it:
     search:
       start: Inizio ricerca...
   landing:
-    about: "Descrizione piattaforma"
+    about: "Questa è un'interfaccia per il software di video-conferenza open source BigBlueButton. Puoi creare Stanze per ospitare i meeting, o partecipare ad altri meeting utilizzando pratici collegamenti brevi."
     welcome: MonclerDigitalShowRoom
     video: Guarda il tutorial sull'utilizzo di GreenLight
     upgrade: Mostrami come aggiornare alla versione 2.0!
@@ -347,7 +347,7 @@ it:
           admins_link: Visita la pagina Organizzazione
           subject: Accesso nuovo Utente Greenlight
           username: "L'utente ha avuto accesso con il nome %{name} e l'email %{email} ."
-        subject: Invito ad accedere a BigBlueButton
+        subject: Invito ad accedere a MonclerDigitalShowRoom
         username: "Il tuo nome utente è %{email}."
       password_reset:
         title: 'Reimposta password'

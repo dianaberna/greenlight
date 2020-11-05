@@ -3,19 +3,42 @@
 	color: #fff;
 }
 
-.avatar, .header .header-nav {
-	padding-top: 4px;
+.header .header-nav {
+	padding-top: 8px;
 	color: #000 !important;
+}
+
+.avatar{
+	padding-top: 4px;
+}
+
+.header-nav span, .header-nav i{
+	color: #000 !important;
+}
+
+.header .header-nav{
+	text-transform: uppercase !important;
+    font-family: 'Gotham-Medium'!important;  
+}
+
+#copy-invite, .button_to .btn{
+	text-transform: capitalize !important;
+	font-family: 'Gotham-Medium'!important;  
 }
 
 #main-text{
 	font-family: 'BauerBodoniStd' !important;
 }
 
-.form-control{
+.input-group .form-control, input.form-control{
 	font-family: 'Source Sans Pro' !important;
+    height: 3rem !important;
+    border-radius: 0px !important;
 }
 
+.form-group .subtitle{
+	color: #000 !important;
+}
 
 .header-brand {
     margin-right: 1rem;
@@ -48,11 +71,12 @@
 }
 
 .btn {
-	margin-top: 1rem;
+	/*margin-top: 1rem;*/
 	border: 0;
 	color: #000 !important;
 	font-family: 'Gotham' !important;
 	text-transform: uppercase;
+	border-radius: 0px;
 	/*font-family: 'Source Sans Pro' !important;*/
 }
 
@@ -64,6 +88,7 @@
 
 .card{
 	border: 0;
+	border-radius: 0px;
 }
 
 .btn i{
@@ -87,9 +112,82 @@ table#recordings-table {
 	font-family: 'Source Sans Pro' !important;
 }
 
+.list-group #roleSelect .list-group-item, 
+#newRole{
+	color: #000 !important;
+	background-color: #fff !important;
+}
+.list-group #roleSelect .list-group-item:hover,
+#newRole:hover{
+	color: #D20102 !important;
+	background-color: #fff !important;
+}
+
 .footer{
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+a.page-link {
+    padding-top: 16px !important;
+}
+
+
+.edit_hover_class a{
+	visibility: visible !important;
+}
+
+.room_block-container .fas{
+	padding-top: 10px !important;
+}
+
+.container .list-group-item.active{
+	background-color: #000 !important;
+}
+.container .list-group-item{
+	color: #fff !important;
+	font-family: 'Gotham-Medium' !important;
+}
+
+.container .list-group-item:hover{
+	color: #FEEC00 !important;
+	background-color: #000 !important;
+}
+
+.container .list-group-item:hover .fas{
+	color: #FEEC00 !important;
+}
+
+.container .list-group-item span{
+	color: #fff !important;
+}
+
+.stamp .fas{
+	padding-top: 11px !important;
+}
+
+.card-header:first-child{
+	border-radius: 0px !important;
+}
+
+.sort-disabled, #newRoleButton{
 	background-color: #fff !important;
 	color: #000 !important;
 }
 
+.sort-disabled:hover, #newRoleButton:hover{
+	background-color: #fff !important;
+	color: #D20102 !important;
+}
 
+.username{
+	font-family: 'Gotham-Medium' !important;
+}
+
+.sign-in-button {
+	margin-top: 14px !important;
+}
+
+.table-hover tbody tr:hover{
+	color: #FEEC00!important;
+}

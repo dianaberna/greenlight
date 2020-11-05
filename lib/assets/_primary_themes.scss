@@ -10,7 +10,7 @@
   background-color: $primary-color !important;
   // border-color: $primary-color !important;
   color: #000 !important;
-  padding-top: 1rem;
+  padding-top: 0.9rem;
   vertical-align: middle;
 }
 
@@ -21,8 +21,8 @@
 .btn-primary:hover i {
   background-color: $primary-color !important;
   // border-color: $primary-color-darken !important;
-  color: red !important;
-  text-decoration: underline;
+  color: #D20102 !important;
+  text-decoration:  none;
 }
 
 .btn-primary:focus {
@@ -106,7 +106,10 @@ a {
 }
 
 .dropdown-item {
-  color: #6e7687 !important;
+  color: #000 !important;
+  .dropdown-icon{
+    color: #000 !important;
+  }
   &:hover {
     color: $primary-color !important;
     background-color: $primary-color-lighten !important;
@@ -114,6 +117,10 @@ a {
       background: #e6e6e6 !important;
       color: rgb(110, 118, 135) !important;
       opacity: 0.9;
+    }
+    .dropdown-icon{
+      color: $primary-color !important;
+      background-color: $primary-color-lighten !important;
     }
   }
   &:active, &.active {
@@ -151,6 +158,7 @@ input:focus, select:focus {
 }
 
 .btn-danger {
+  padding-top: 0.8rem !important;
   color: white !important;
 }
 
@@ -165,11 +173,12 @@ input:focus, select:focus {
     &.active a {
       color:white !important;
       background-color: $primary-color !important;
+      padding-top: 16px;
     }
 
     & a {
       color: $primary-color !important;
-      border-color: $primary-color !important;
+      border: 0 !important;
       white-space: nowrap;
     }
 
@@ -203,7 +212,7 @@ input:focus, select:focus {
 
 .custom-switch-input:checked ~ .custom-switch-indicator {
   background-color: $primary-color !important;
-  border-color: $primary-color-darken !important;
+  border-color: 1px solid rgba(0,40,100,0.12)!important;
 }
 
 .custom-switch-input:focus ~ .custom-switch-indicator {
@@ -228,8 +237,18 @@ input:focus, select:focus {
 }
 
 .btn-secondary {
-  color: $primary-color;
+  color: #fff!important;
+  background-color: #000!important;
   & i {
     color: $primary-color;
   }
+}
+
+a.page-link {
+    background-color: #000!important;
+}
+
+
+.pagination .page-item.active a{
+  background-color: #000!important;
 }
